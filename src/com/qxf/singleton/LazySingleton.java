@@ -1,5 +1,6 @@
 package com.qxf.singleton;
 
+// 单例：懒汉式，双重检验锁
 public class LazySingleton {
     // 被volatile修饰的成员变量可以确保多个线程都能够正确处理
     private volatile static LazySingleton lazySingleton = null;

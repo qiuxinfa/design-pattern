@@ -16,6 +16,6 @@ public class SingletonTest {
 
         EnumSingleton enumSingleton = EnumSingleton.INSTANCE;
         EnumSingleton enumSingleton2 = EnumSingleton.INSTANCE;
-        System.out.println(eagerSingleton == eagerSingleton2);
+        System.out.println(enumSingleton == enumSingleton2);
     }
 }

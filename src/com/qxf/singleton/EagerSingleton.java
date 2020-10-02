@@ -1,7 +1,9 @@
 package com.qxf.singleton;
 
+// 单例：饿汉式
 public class EagerSingleton {
 
+    // 单例对象
     private static EagerSingleton eagerSingleton = new EagerSingleton();
 
     // 构造器私有
